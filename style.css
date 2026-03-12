@@ -1,0 +1,200 @@
+body{
+margin:0;
+font-family: Arial, Helvetica, sans-serif;
+background:#efefef;
+}
+
+
+/* NAVBAR */
+
+header{
+background:white;
+box-shadow:0 3px 8px rgba(0,0,0,0.1);
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 80px;
+}
+
+.logo img{
+width:60px;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:40px;
+}
+
+nav a{
+text-decoration:none;
+color:black;
+font-size:18px;
+}
+
+.order-btn{
+background:#ccc;
+border:none;
+padding:10px 20px;
+cursor:pointer;
+}
+
+
+/* HERO */
+
+.hero{
+text-align:center;
+padding:40px;
+}
+
+.hero h2{
+font-family:cursive;
+margin-bottom:20px;
+}
+
+.hero-image{
+border-radius:120px;
+overflow:hidden;
+width:80%;
+margin:auto;
+position:relative;
+}
+
+.hero-image img{
+width:100%;
+display:block;
+}
+
+.hero-text{
+position:absolute;
+top:40px;
+left:50%;
+transform:translateX(-50%);
+font-family:cursive;
+font-size:28px;
+color:black;
+}
+
+
+/* SMOOTHIES */
+
+.smoothies{
+text-align:center;
+padding:50px;
+}
+
+.smoothie-container{
+display:flex;
+justify-content:center;
+gap:20px;
+margin-top:40px;
+}
+
+.card{
+background:white;
+padding:20px;
+width:220px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.card img{
+width:100%;
+height:200px;
+object-fit:cover;
+}
+
+.card h3{
+font-size:16px;
+margin:10px 0 5px;
+}
+
+
+
+/* ABOUT MENU */
+
+.about-menu{
+padding:80px;
+text-align:center;
+}
+
+.menu-item{
+display:flex;
+align-items:center;
+background:white;
+margin:40px auto;
+max-width:900px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.menu-item img{
+width:50%;
+}
+
+.menu-text{
+padding:30px;
+text-align:left;
+}
+
+.reverse{
+flex-direction:row-reverse;
+}
+
+
+
+/* TESTIMONY */
+
+.testimony{
+text-align:center;
+padding:80px;
+}
+
+.testi-container{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:40px;
+}
+
+.testi-card{
+width:250px;
+background:#ddd;
+padding:20px;
+}
+
+.testi-card img{
+width:120px;
+height:120px;
+border-radius:50%;
+object-fit:cover;
+}
+
+
+/* FOOTER */
+
+footer{
+background:#222;
+color:white;
+padding:50px 80px;
+}
+
+.footer-right{
+text-align:right;
+}
+
+.footer-right img{
+width:150px;
+}
+
+.footer-container{
+display:flex;
+justify-content:space-between;
+margin-bottom:30px;
+}
+
+html{
+scroll-behavior:smooth;
+}
