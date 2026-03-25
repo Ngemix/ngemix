@@ -42,6 +42,49 @@ padding:10px 20px;
 cursor:pointer;
 }
 
+.contact-group{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.contact-group span{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.arrow-icon{
+  width: 18px;
+  height: 18px;
+}
+
+.qr-img{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.nav-right{
+  gap: 10px;
+}
+
+.nav-right{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.kontak-btn{
+    background: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+.kontak-btn img{
+    width: 60px;
+}
+
 
 /* HERO */
 
@@ -130,11 +173,65 @@ max-width:900px;
 box-shadow:0 5px 15px rgba(0,0,0,0.1);
 }
 
+.menu-item2{
+display:flex;
+align-items:center;
+background:white;
+margin:40px auto;
+max-width:900px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.menu-item3{
+display:flex;
+align-items:center;
+background:white;
+margin:40px auto;
+max-width:900px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.menu-item4{
+display:flex;
+align-items:center;
+background:white;
+margin:40px auto;
+max-width:900px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
 .menu-item img{
 width:50%;
 }
 
+.menu-item2 img{
+width:50%;
+}
+
+.menu-item3 img{
+width:50%;
+}
+
+.menu-item4 img{
+width:50%;
+}
+
 .menu-text{
+padding:30px;
+text-align:left;
+}
+
+.menu-text2{
+padding:30px;
+text-align:left;
+}
+
+.menu-text3{
+padding:30px;
+text-align:left;
+}
+
+.menu-text4{
 padding:30px;
 text-align:left;
 }
