@@ -302,11 +302,10 @@ scroll-behavior:smooth;
   .navbar{
     flex-direction: column;
     padding: 10px 20px;
-  }
-
+    
 .logo img{
-  width: 50 px;
-  margin-bottom: 10 px;
+  width: 50px;
+  margin-bottom: 10px;
 }
   
   nav ul{
@@ -316,12 +315,7 @@ scroll-behavior:smooth;
   }
 
   nav a{
-    font-size: 16 px;
-  }
-
-  .nav-right{
-    flex-direction: column;
-    gap: 10px;
+    font-size: 16px;
   }
 
  .nav-right{
