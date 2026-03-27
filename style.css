@@ -301,13 +301,22 @@ scroll-behavior:smooth;
   /* NAVBAR */
   .navbar{
     flex-direction: column;
-    padding: 15px 20px;
+    padding: 10px 20px;
   }
 
+.logo img{
+  width: 50 px;
+  margin-bottom: 10 px;
+}
+  
   nav ul{
     flex-direction: column;
-    gap: 15px;
-    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+  }
+
+  nav a{
+    font-size: 16 px;
   }
 
   .nav-right{
@@ -315,6 +324,26 @@ scroll-behavior:smooth;
     gap: 10px;
   }
 
+ .nav-right{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+ .contact-group{
+    justify-content: center;
+  }
+
+  .qr-img{
+    width: 70px; /* biar ga kecil banget */
+    height: 70px;
+  }
+
+  .order-btn{
+    width: 150px;
+  }
+
+}
+  
   /* HERO */
   .hero{
     padding: 20px;
