@@ -296,12 +296,8 @@ html{
 scroll-behavior:smooth;
 }
 
-/* ========================= */
-/* RESPONSIVE - MOBILE */
-/* ========================= */
 @media (max-width: 768px){
 
-/* NAVBAR */
 .navbar{
   flex-direction: column;
   padding: 15px 20px;
@@ -312,6 +308,14 @@ nav ul{
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding-bottom: 5px;
+}
+
+nav ul::-webkit-scrollbar{
+  display: none;
 }
 
 .nav-right{
@@ -319,7 +323,6 @@ nav ul{
   align-items: center;
 }
 
-/* HERO */
 .hero{
   padding: 20px;
 }
@@ -334,7 +337,6 @@ nav ul{
   top: 20px;
 }
 
-/* SMOOTHIES */
 .smoothies{
   padding: 30px 20px;
 }
@@ -348,7 +350,6 @@ nav ul{
   width: 90%;
 }
 
-/* ABOUT MENU */
 .about-menu{
   padding: 40px 20px;
 }
@@ -371,7 +372,6 @@ nav ul{
   text-align: center;
 }
 
-/* TESTIMONY */
 .testimony{
   padding: 40px 20px;
 }
@@ -385,7 +385,6 @@ nav ul{
   width: 90%;
 }
 
-/* FOOTER */
 footer{
   padding: 30px 20px;
 }
