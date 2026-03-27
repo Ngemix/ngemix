@@ -295,3 +295,88 @@ margin-bottom:30px;
 html{
 scroll-behavior:smooth;
 }
+
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  .navbar{
+    flex-direction: column;
+    padding: 15px 20px;
+  }
+
+  nav ul{
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .nav-right{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* HERO */
+  .hero{
+    padding: 20px;
+  }
+
+  .hero-image{
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .hero-text{
+    font-size: 18px;
+    top: 20px;
+  }
+
+  /* SMOOTHIES */
+  .smoothie-container{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card{
+    width: 90%;
+  }
+
+  /* ABOUT MENU */
+  .menu-item,
+  .menu-item2,
+  .menu-item3,
+  .menu-item4{
+    flex-direction: column;
+  }
+
+  .menu-item img,
+  .menu-item2 img,
+  .menu-item3 img,
+  .menu-item4 img{
+    width: 100%;
+  }
+
+  .menu-text{
+    text-align: center;
+  }
+
+  /* TESTIMONY */
+  .testi-container{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testi-card{
+    width: 90%;
+  }
+
+  /* FOOTER */
+  .footer-container{
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .footer-right{
+    text-align: center;
+  }
+}
