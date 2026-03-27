@@ -300,10 +300,11 @@ scroll-behavior:smooth;
 
   /* NAVBAR */
   .navbar{
-    flex-direction: column;
+    flex-direction: column
+    ;
     padding: 10px 20px;
     
-.logo img{
+.#logo img{
   width: 50px;
   margin-bottom: 10px;
 }
